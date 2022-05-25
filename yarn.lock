@@ -822,35 +822,37 @@ attr-accept@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/attr-accept/-/attr-accept-1.1.0.tgz#b5cd35227f163935a8f1de10ed3eba16941f6be6"
 
-auth0-js@^9.16.2:
-  version "9.16.2"
-  resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.16.2.tgz#7c4ca32add3d8f7419ce33deb8f4839179606779"
+auth0-js@^9.19.0:
+  version "9.19.0"
+  resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.19.0.tgz#09fcf97465c5a9a93b23c63056f9e45d8d4b3be2"
   dependencies:
-    base64-js "^1.3.0"
-    idtoken-verifier "^2.1.2"
+    base64-js "^1.5.1"
+    idtoken-verifier "^2.2.2"
     js-cookie "^2.2.0"
-    qs "^6.7.0"
+    qs "^6.10.1"
     superagent "^5.3.1"
     url-join "^4.0.1"
     winchan "^0.2.2"
 
-auth0-lock@^11.30.1:
-  version "11.30.1"
-  resolved "https://registry.yarnpkg.com/auth0-lock/-/auth0-lock-11.30.1.tgz#919eba463576ae8ff3e6b2b7a188dce4f52a529b"
+auth0-lock@^11.33.0:
+  version "11.33.0"
+  resolved "https://registry.yarnpkg.com/auth0-lock/-/auth0-lock-11.33.0.tgz#b62a360ec7044b9b2c941732146fc554a6204223"
   dependencies:
-    auth0-js "^9.16.2"
+    auth0-js "^9.19.0"
     auth0-password-policies "^1.0.2"
-    blueimp-md5 "2.3.1"
-    dompurify "^2.2.8"
+    blueimp-md5 "^2.19.0"
+    classnames "^2.3.1"
+    dompurify "^2.3.5"
     immutable "^3.7.3"
     jsonp "^0.2.1"
-    password-sheriff "^1.1.0"
-    prop-types "^15.6.0"
-    qs "^6.7.0"
+    node-fetch "^2.6.7"
+    password-sheriff "^1.1.1"
+    prop-types "^15.8.0"
+    qs "^6.10.3"
     react "^15.6.2"
     react-dom "^15.6.2"
     react-transition-group "^2.2.1"
-    trim "1.0.0"
+    trim "^1.0.1"
     url-join "^1.1.0"
     validator "^13.6.0"
 
@@ -1588,7 +1590,7 @@ base64-js@^1.0.2:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.1.tgz#a91947da1f4a516ea38e5b4ec0ec3773675e0886"
 
-base64-js@^1.3.0:
+base64-js@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
 
@@ -1640,9 +1642,9 @@ bluebird@^3.4.7:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
-blueimp-md5@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/blueimp-md5/-/blueimp-md5-2.3.1.tgz#992a6737733b9da1edd641550dc3acab2e9cfc5a"
+blueimp-md5@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/blueimp-md5/-/blueimp-md5-2.19.0.tgz#b53feea5498dcb53dc6ec4b823adb84b729c4af0"
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.11.9:
   version "4.12.0"
@@ -2132,11 +2134,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.2.5, classnames@2.x, classnames@^2.1.2, classnames@^2.1.3, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@~2.2.0:
+classnames@2.2.5, classnames@~2.2.0:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
-classnames@^2.2.6:
+classnames@2.x, classnames@^2.1.2, classnames@^2.1.3, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
 
@@ -2551,9 +2553,9 @@ crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
 
-crypto-js@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
+crypto-js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
 
 css-animation@1.x, css-animation@^1.2.5, css-animation@^1.3.2:
   version "1.4.1"
@@ -3162,9 +3164,9 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
-dompurify@^2.2.8:
-  version "2.2.9"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.9.tgz#4b42e244238032d9286a0d2c87b51313581d9624"
+dompurify@^2.3.5:
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.8.tgz#224fe9ae57d7ebd9a1ae1ac18c1c1ca3f532226f"
 
 domutils@1.1:
   version "1.1.6"
@@ -4857,15 +4859,15 @@ icss-utils@^2.1.0:
   dependencies:
     postcss "^6.0.1"
 
-idtoken-verifier@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/idtoken-verifier/-/idtoken-verifier-2.1.2.tgz#185ec29b70400b47a1d48b068e7b95d1bbf7dcef"
+idtoken-verifier@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/idtoken-verifier/-/idtoken-verifier-2.2.2.tgz#0d91a2f92231ebd763e5098d2ac44f038eb1068b"
   dependencies:
-    base64-js "^1.3.0"
-    crypto-js "3.3.0"
+    base64-js "^1.5.1"
+    crypto-js "^4.1.1"
     es6-promise "^4.2.8"
     jsbn "^1.1.0"
-    unfetch "^4.1.0"
+    unfetch "^4.2.0"
     url-join "^4.0.1"
 
 ieee754@^1.1.4:
@@ -6719,6 +6721,12 @@ node-fetch@^1.0.1:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
+node-fetch@^2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-forge@0.6.33:
   version "0.6.33"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.6.33.tgz#463811879f573d45155ad6a9f43dc296e8e85ebc"
@@ -6908,6 +6916,10 @@ object-copy@^0.1.0:
 object-hash@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-1.1.8.tgz#28a659cf987d96a4dabe7860289f3b5326c4a03c"
+
+object-inspect@^1.9.0:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.12.1.tgz#28a661153bad7e470e4b01479ef1cb91ce511191"
 
 object-inspect@~1.3.0:
   version "1.3.0"
@@ -7235,9 +7247,9 @@ pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
 
-password-sheriff@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/password-sheriff/-/password-sheriff-1.1.0.tgz#fdb3c3d845a0a3c92de422b2ad9346ce08a71413"
+password-sheriff@^1.1.0, password-sheriff@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/password-sheriff/-/password-sheriff-1.1.1.tgz#39efe081be197d4d46fb3b0763288daedef40400"
 
 path-browserify@0.0.0:
   version "0.0.0"
@@ -7782,13 +7794,13 @@ prop-types-exact@^1.1.1:
     has "^1.0.1"
     object.assign "^4.0.4"
 
-prop-types@*, prop-types@15.x, prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.3, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.2:
-  version "15.7.2"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+prop-types@*, prop-types@15.x, prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.3, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.2, prop-types@^15.8.0:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   dependencies:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
-    react-is "^16.8.1"
+    react-is "^16.13.1"
 
 prop-types@~15.5.10:
   version "15.5.10"
@@ -7864,9 +7876,11 @@ qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
 
-qs@^6.2.1, qs@^6.7.0, qs@^6.9.4:
-  version "6.9.6"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
+qs@^6.10.1, qs@^6.10.3, qs@^6.2.1, qs@^6.9.4:
+  version "6.10.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.3.tgz#d6cde1b2ffca87b5aa57889816c5f81535e22e8e"
+  dependencies:
+    side-channel "^1.0.4"
 
 qs@~6.4.0:
   version "6.4.0"
@@ -8557,7 +8571,7 @@ react-intl@^2.3.0:
     intl-relativeformat "^2.0.0"
     invariant "^2.1.1"
 
-react-is@^16.8.1:
+react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
 
@@ -9580,6 +9594,14 @@ shellwords@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
 
+side-channel@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
+  dependencies:
+    call-bind "^1.0.0"
+    get-intrinsic "^1.0.2"
+    object-inspect "^1.9.0"
+
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -10251,9 +10273,9 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-trim@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/trim/-/trim-1.0.0.tgz#fd1f30b878bdd2d8435fa0f2cc9cbb55f518be7d"
+trim@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/trim/-/trim-1.0.1.tgz#68e78f6178ccab9687a610752f4f5e5a7022ee8c"
 
 tryit@^1.0.1:
   version "1.0.3"
@@ -10348,7 +10370,7 @@ uid-number@^0.0.6:
   dependencies:
     invariant "^2.1.0"
 
-unfetch@^4.1.0:
+unfetch@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-4.2.0.tgz#7e21b0ef7d363d8d9af0fb929a5555f6ef97a3be"
 
@@ -10761,6 +10783,13 @@ whatwg-fetch@2.0.3, whatwg-fetch@>=0.10.0:
 whatwg-url@^4.3.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-4.8.0.tgz#d2981aa9148c1e00a41c5a6131166ab4683bbcc0"
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
   dependencies:
     tr46 "~0.0.3"
     webidl-conversions "^3.0.0"
