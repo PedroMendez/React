@@ -24,7 +24,7 @@
     "js-info-bubble": "git+https://github.com/RedQ/js-info-bubble.git",
     "js-rich-marker": "^1.1.2",
     "lodash": "^4.17.21",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "nprogress": "^0.2.0",
     "postcss-inline-rtl": "^0.9.8",
     "prop-types": "^15.5.10",
