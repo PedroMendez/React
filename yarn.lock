@@ -3083,8 +3083,8 @@ domhandler@^2.3.0:
     domelementtype "1"
 
 dompurify@^2.3.5:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.8.tgz#224fe9ae57d7ebd9a1ae1ac18c1c1ca3f532226f"
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.5.6.tgz#8402b501611eaa7fb3786072297fcbe2787f8592"
 
 domutils@1.1:
   version "1.1.6"
