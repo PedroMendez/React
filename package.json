@@ -14,7 +14,7 @@
     "echarts-for-react": "^1.2.1",
     "echarts-liquidfill": "^1.0.4",
     "express": "^4.20.0",
-    "firebase": "^4.2.0",
+    "firebase": "^10.9.0",
     "fixed-data-table-2": "^0.7.14",
     "globalize": "^1.2.3",
     "history": "^4.6.3",
